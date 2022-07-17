@@ -8,6 +8,19 @@ module.exports = {
       fontFamily: {
         sans: ['Outfit', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        cyan: {
+          300: 'hsl(215, 51%, 70%)',
+        },
+        teal: {
+          400: 'hsl(178, 100%, 50%)',
+        },
+        slate: {
+          700: 'hsl(215, 32%, 27%)',
+          800: 'hsl(216, 50%, 16%)',
+          900: 'hsl(217, 54%, 11%)',
+        },
+      },
     },
   },
   plugins: [],
