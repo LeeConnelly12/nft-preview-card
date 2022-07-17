@@ -21,6 +21,15 @@ module.exports = {
           900: 'hsl(217, 54%, 11%)',
         },
       },
+      animation: {
+        'fade-up': 'fade-up 0.3s ease-out forwards',
+      },
+      keyframes: {
+        'fade-up': {
+          '0%': { opacity: '0%', transform: 'translateY(5%)' },
+          '100%': { opacity: '100%', transform: 'translateY(0)' },
+        },
+      },
     },
   },
   plugins: [],
