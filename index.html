@@ -14,11 +14,15 @@
         <article>
             <a href="#!" class="relative group inline-block rounded-2xl overflow-hidden">
                 <img src="/equilibrium.jpg" alt="Cube balancing on one of it's corners.">
-                <div class="absolute inset-0 bg-cyan-400 bg-opacity-70 hidden group-hover:grid place-items-center">
-                    <img src="/view.svg" alt="Click to learn more about Equilibrium.">
+                <div class="absolute inset-0 bg-cyan-400 opacity-0 transition-opacity duration-300 grid group-hover:opacity-70 place-items-center">
+                    <img 
+                        src="/view.svg" 
+                        alt="Click to learn more about Equilibrium." 
+                        class="transform translate-y-2 opacity-0 transition-all duration-300 delay-100 group-hover:opacity-100 group-hover:translate-y-0"
+                    >
                 </div>
             </a>
-            <a href="#!" class="inline-block mt-6 text-white hover:text-cyan-400">
+            <a href="#!" class="inline-block mt-6 text-white transition-colors duration-300 hover:text-cyan-400">
                 <h1 class="capitalize text-xl font-bold">equilibrium #3429</h1>
             </a>
             <p class="font-light pt-3">Our Equilibrium collection promotes balance and calm.</p>
@@ -37,7 +41,7 @@
                 <img src="/avatar.png" alt="Photo of Jules Wyvern." class="border border-white rounded-full" width="36">
                 <address class="not-italic">
                     Creation of 
-                    <a href="#!" class="text-white hover:text-cyan-400">Jules Wyvern</a>
+                    <a href="#!" class="text-white transition-colors duration-300 hover:text-cyan-400">Jules Wyvern</a>
                 </address>
             </div>
         </article>
